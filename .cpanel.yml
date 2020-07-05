@@ -1,0 +1,4 @@
+deployment:
+  tasks:
+    - export DEPLOYPATH=/home/ahmadbaa/github
+    - /bin/cp -R * $DEPLOYPATH
